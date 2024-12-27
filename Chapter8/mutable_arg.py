@@ -13,6 +13,14 @@ print(f"list2 = {list2}")
 print(f"list3 = {list3}")
 
 """
+output of above program is
+
+list1 = [10, 'a']
+list2 = [123]
+list3 = [10, 'a']
+"""
+
+"""
 In Python, default argument values in functions are evaluated only once at the time the function is defined, 
 not each time the function is called. If the default argument is mutable (like a list, dictionary, or set), 
 any modification to it will persist across subsequent function calls, which can lead to unexpected behavior.
