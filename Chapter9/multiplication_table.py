@@ -13,9 +13,9 @@ def table(n,folder_path):
             content.write(value_string)
     
 folder_path = Path("table") # table is folder name, change it as per your need
-folder_path.mkdir(parents=True,exist_ok=True)
+folder_path.mkdir(parents=True,exist_ok=True) #this can also be written as Path("table").mkdir...
 current_directory = Path().cwd()
 
 for i in range(2,21):
     table(i,folder_path)
-print(f"all the tables from 2 to 20 have been saved under {current_directory}/{folder_path}/")
+print(f"all the tables from 2 to 20 have been saved under {folder_path.absolute()}")

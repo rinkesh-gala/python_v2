@@ -16,11 +16,10 @@ with open("high_score.txt") as content: # difficult to do both read and write op
     
 with open("high_score.txt","w") as content:   
     if (game_score > file_old_score):
-        content.truncate(0)
         content.write(str(game_score)) #only string content can be written to the file
         print(f"new high score {game_score} has been updated in the file")
     else:
-        content.write(str(file_old_score)) # have to update old score again the file as file gets truncated when you open the file in write mode
+        content.write(str(file_old_score)) # have to update old score again to the file as file gets truncated when you open the file in write mode
         print(f"your game score {game_score} is less than high score {file_old_score}" ) 
 
 
