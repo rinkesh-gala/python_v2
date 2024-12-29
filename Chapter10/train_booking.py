@@ -3,7 +3,7 @@
 
 
 class Train:
-    def __init__(self,number,name,seats,fare):
+    def __init__(self,number,name,seats,fare): # __abc__ (methods with double underscore is also called as dunder method)
         self.number = number
         self.name = name
         self.seats = seats
