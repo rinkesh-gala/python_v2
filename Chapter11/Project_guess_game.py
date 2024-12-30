@@ -18,6 +18,6 @@ while (user_guess != computer_random_no):
                Computer had randomly generated {computer_random_no} """)
         break
     elif(user_guess<computer_random_no):
-        print("your guess was less than the computer's number.")
+        print("your guess was lower than the computer's number.")
     else:
         print("your guess was higher than the computer's number.")
