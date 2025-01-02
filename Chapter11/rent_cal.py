@@ -1,4 +1,4 @@
-rent = 45000*12
+rent = 55000*12
 total = rent
 print(f"year  Rent/year  Total_Rent_till_now")
 for i in range (1,31):
