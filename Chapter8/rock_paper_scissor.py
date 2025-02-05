@@ -2,8 +2,8 @@
 
 import random
 
-def play_game(player_input):
-    game_list = ["rock","paper","scissor"]
+def play_game(player_input,game_list):
+    #game_list = ["rock","paper","scissor"]
     computer_input = random.choice(game_list)
     print(f"computer selected {computer_input}")
 
@@ -22,6 +22,6 @@ def play_game(player_input):
 player_input = (input("enter either Rock or Paper or Scissor as your input to play the game: ")).lower()
 game_list = ["rock","paper","scissor"]
 if(player_input in game_list):
-    play_game(player_input)
+    play_game(player_input,game_list)
 else:
     print("you have entered invalid input restart the game")

@@ -39,7 +39,7 @@ while (user_option !=4):
         2. get fare information 
         3. book train tickets 
         4. exit
-
+        
         """
     ))
     if (not(user_option in [1,2,3,4])):

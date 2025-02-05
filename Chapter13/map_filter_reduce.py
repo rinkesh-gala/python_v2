@@ -2,7 +2,7 @@
 """map(function, input_list)"""
 # the function can be lambda function
 # map doesnt store any data, it points to the memory location in RAM
-# convert maop object to desired data types to print actual data.
+# convert map object to desired data types to print actual data.
 #map iterates over a set of data present in the list and similar data types.
 #In Python, filter and map are higher-order functions used to process collections (like lists, tuples, etc.), 
 # but they serve different purposes:

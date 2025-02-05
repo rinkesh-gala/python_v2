@@ -7,6 +7,6 @@ word_dict = {
 }
 
 word_search = input("enter a word to search:")
-print(word_dict.get(word_search))
-print(word_dict[word_search])
+print(word_dict.get(word_search)) # this will print "None" if Key is not found
+print(word_dict[word_search]) # this will throw error if Key is not found 
 

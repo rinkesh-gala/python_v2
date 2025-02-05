@@ -1,5 +1,5 @@
 # Write a python function to remove a given word from a list and strip it at the same time
-# strip function remoevs all the mentioned/passed character if they appear in starting/training in a word
+# strip function removes all the mentioned/passed character if they appear in starting/training in a word
 
 
 
