@@ -6,4 +6,4 @@ stud_marks = {
     "ran" : [1,2,3,4,5]
 }
 
-print(stud_marks)
+print(stud_marks[100])
