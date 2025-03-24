@@ -3,6 +3,7 @@
 
 with open("find_line_number.txt") as file:
     line_list = file.readlines()
+    #print(line_list)
     line_number=0
 
     for line in line_list:

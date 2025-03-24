@@ -1,0 +1,2 @@
+s = "abcdavsdmvnas"
+print(s)
