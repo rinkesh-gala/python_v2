@@ -24,7 +24,7 @@ def remove_dup(sorted_list):
 a=[1,4,3,5,8] 
 b=[2,4,5,9,8,-1]  
 sorted_list = merge_sort(a+b)
-#print(f"duplicate removed {list(set(sorted_list))}") # this doesn't work negative numbers. 
+#print(f"duplicate removed {list(set(sorted_list))}") # this doesn't work with negative numbers. 
 # it gave output as [1, 2, 3, 4, 5, 8, 9, -1]
 print(f"{sorted_list=}")
 print(f"dedup list: {remove_dup(sorted_list)}")
