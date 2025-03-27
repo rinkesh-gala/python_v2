@@ -18,9 +18,6 @@ def remove_dup(sorted_list):
             dedup_list.append(item)
     return dedup_list
 
-
-
-
 a=[1,4,3,5,8] 
 b=[2,4,5,9,8,-1]  
 sorted_list = merge_sort(a+b)
